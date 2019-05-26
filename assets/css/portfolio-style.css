@@ -38,3 +38,19 @@ body{
     font-size: 18px;
     padding-right: 15px;
 }
+
+#portfolio img{
+    position: relative;
+    float: right 50px;
+    padding: 15px;
+}
+/*
+.mobileContainer{
+    float:left 25px 45px;
+    font-size: 25px;
+    background: #faee2f;
+    width: 18.2%;
+    margin-bottom: 10px;
+}
+*/
+

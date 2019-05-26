@@ -44,3 +44,13 @@ body{
 
 }
 
+#about-me{
+    padding:30px;
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align: center;
+    
+}
