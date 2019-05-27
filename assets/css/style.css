@@ -8,10 +8,10 @@ body{
 }
 
 .container{
-    width:80%;
+    width:8;
     margin: auto;
-
 }
+
 #main-header{
     background-color:#fda75e;
     color: #fff;
