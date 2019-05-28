@@ -1,7 +1,8 @@
-html{
+/*html{
     height: 100%;
     width:100%;
-}
+} */
+
 body{
     height: 100%;
     width:100%;
@@ -9,14 +10,14 @@ body{
     color:#555;
     font-family: 'Source Pro Serif', serif;
     font-size: 16px;
-    line-height:1.6em;
+    line-height:32px;
     margin:0;
 }
 
 .container{
     width:80%;
     margin:auto;
-}
+} 
 
 #main-header{
     background-color:#fda75e;
@@ -52,8 +53,7 @@ body{
 #portfolio img{
     position: relative;
     float: right;
-    top:2px;
-    margin: 100px 40px auto 20px;
+    margin: 0 120px 30px 40px; /*t r b l */
 }
 
 #absolute{
@@ -65,11 +65,11 @@ body{
     font-family: 'Eczar', serif;
     font-weight:bold;
     padding: 2px;
-    float: left;
+    float: right;
     position: absolute;
-    top:480px;
-    left:241px;
-    width:20.1%;
+    top:620px;
+    right:269px;
+    width:22.5%;
     text-align: center;
     background: yellow;
 }
@@ -78,10 +78,11 @@ body{
     font-family: 'Eczar', serif;
     font-weight:bold;
     padding: 2px;
+    float:left;
     position: absolute;
-    top: 480px;
-    left:601px;
-    width: 20.1%;
+    top: 380px;
+    left:312px;
+    width: 22.5%;
     text-align: center;
     background: yellow;
 }
@@ -90,10 +91,10 @@ body{
     font-family: 'Eczar', serif;
     font-weight:bold;
     padding:2px;
-    top:480px;
-    left:960px;
+    top:380px;
+    right:269px;
     position: absolute;
-    width: 20.2%;
+    width: 22.5%;
     text-align:center;
     background:yellow;
 }
@@ -102,9 +103,9 @@ body{
     font-family: 'Eczar', serif;
     font-weight: bold;
     padding:2px;
-    bottom: -90px;
-    left: 240px;
-    width:20.2%;
+    top: 840px;
+    left: 313px;
+    width:22.5%;
     text-align: center;
     position: absolute;
     background:yellow;
@@ -115,9 +116,9 @@ body{
     font-family:'Eczar', serif;
     font-weight:bold;
     padding:2px;
-    bottom:-90px;
-    left:600px;
-    width: 20.2%;
+    top:840px;
+    right:269px;
+    width: 22.5%;
     text-align: center;
     position: absolute;
     background:yellow;
@@ -127,9 +128,9 @@ body{
     font-family: 'Eczar',serif;
     font-weight: bold;
     padding:2px;
-    bottom:-90px;
-    right: 230px;
-    width:20.2%;
+    bottom:-15px;
+    left: 314px;
+    width:22.5%;
     text-align:center;
     position: absolute;
     background:yellow;
@@ -141,5 +142,6 @@ body{
     top: 500px;
     text-align: center;
     margin-bottom:0;
+    margin-top: 280px;
     clear:both;
 }
