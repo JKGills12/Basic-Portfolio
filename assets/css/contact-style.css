@@ -18,6 +18,11 @@ body{
     color:#fff;
 }
 
+#pageHeader{
+    font-family: 'Eczar', serif;
+    font-weight: bold;
+}
+
 #navbar{
     background-color:#333;
     color:#fff;
