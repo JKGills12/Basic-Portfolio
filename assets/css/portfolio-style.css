@@ -102,7 +102,7 @@ body{
     font-weight:bold;
     padding: 2px;
     position: absolute;
-    top: 380px;
+    top: 390px;
     right:434px;
     width: 20%;
     text-align: center;
@@ -113,7 +113,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     padding:2px;
-    top:380px;
+    top:390px;
     left:436px;
     position: absolute;
     width: 20%;
@@ -125,7 +125,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding:2px;
-    top: 840px;
+    top: 850px;
     right: 434px;
     width:20%;
     text-align: center;
@@ -138,7 +138,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     padding:2px;
-    top:840px;
+    top:850px;
     left:435px;
     width: 20%;
     text-align: center;
@@ -157,6 +157,20 @@ body{
     position: absolute;
     background:yellow;
 }
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: green;
+}
+
 
 #main-footer{
     background:#333;
