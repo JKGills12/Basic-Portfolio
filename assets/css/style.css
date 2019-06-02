@@ -2,8 +2,17 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+   /* text-align: center; */
+}
+ 
+.jumbotron{
+    background-color: #f4f4f4;
     text-align: center;
-} 
+}
+
+.myCarousel{
+    text-align: center;
+}
 
 body{
     background-color: #f4f4f4;
@@ -25,6 +34,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:#fda75e;
     color: #fff;
+    text-align: center;
 }
 
 #navbar{
@@ -35,6 +45,7 @@ body{
 #navbar ul{
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
 #navbar li{
@@ -51,7 +62,7 @@ body{
 #profile{
     background-image: url(../images/showcase.jpg);
     background-position: center right;
-
+    text-align: center;
 }
 
 #about-me{
